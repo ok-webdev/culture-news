@@ -1,0 +1,31 @@
+.footer{
+  background: #575757;
+  margin-top: 50px;
+  &-title,
+  &-link{
+    color: $secondary-color;
+  }
+  &-separator{
+    width: 100%;
+    height: 0;
+    opacity: 0.4;
+    border-bottom: 1px solid $secondary-color;
+    margin-top: 25px;
+  }
+  &-social{
+    display: flex;
+    align-items: center;
+    margin: 42px auto;
+  }
+}
+.social{
+  &-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    background: $secondary-color;
+    margin-right: 14px;
+  }
+}

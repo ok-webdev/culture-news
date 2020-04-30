@@ -1,0 +1,37 @@
+.promo {
+  height: 464px;
+  background: url('../../img/promo-bg.jpg') no-repeat top/contain;
+  margin-top: 47px;
+
+  &-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &-img {
+    margin-top: 46px;
+  }
+
+  &-title {
+    font-weight: normal;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $secondary-color;
+    margin-top: 32px;
+  }
+
+  &-text {
+    width: 464px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: $secondary-color;
+    margin-top: 57px;
+  }
+}
