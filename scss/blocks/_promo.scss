@@ -1,6 +1,6 @@
 .promo {
-  height: 464px;
-  background: url('../img/promo-bg.jpg') no-repeat top/contain;
+  min-height: 464px;
+  background: url('../img/promo-bg.jpg') no-repeat top/cover;
   margin-top: 47px;
 
   &-wrapper {
@@ -32,6 +32,6 @@
     line-height: 21px;
     text-align: center;
     color: $secondary-color;
-    margin-top: 57px;
+    margin-top: 3%;
   }
 }

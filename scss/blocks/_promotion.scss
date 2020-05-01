@@ -11,7 +11,7 @@
     width: 707px;
     height: 707px;
     background-color: $secondary-color;
-    border-radius: 50%;
+    border-radius: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,12 +23,13 @@
     font-size: 17px;
     letter-spacing: 2px;
     color: $main-color;
+    margin-bottom: 2%;
   }
 
   &-block {
     width: 40%;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 2%;
   }
 
   &-subtitle {
@@ -43,7 +44,7 @@
     font-size: 14px;
     text-align: center;
     color: $main-color;
-    margin-top: 10px;
+    margin-top: 2%;
   }
 
   &-separator {
@@ -51,7 +52,7 @@
     height: 0;
     opacity: 0.4;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    margin-top: 25px;
+    margin-top: 3%;
   }
 }
 

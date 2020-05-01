@@ -50,6 +50,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
 }
 
@@ -62,8 +64,8 @@ body {
 }
 
 .promo {
-  height: 464px;
-  background: url("../img/promo-bg.jpg") no-repeat top/contain;
+  min-height: 464px;
+  background: url("../img/promo-bg.jpg") no-repeat top/cover;
   margin-top: 47px;
 }
 
@@ -104,7 +106,7 @@ body {
   line-height: 21px;
   text-align: center;
   color: #fff;
-  margin-top: 57px;
+  margin-top: 3%;
 }
 
 .reviews {
@@ -117,20 +119,25 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .reviews-card {
-  width: 370px;
+  max-width: 370px;
+  margin: 20px 5px;
 }
 
 .reviews-img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .reviews-title {
@@ -173,7 +180,7 @@ body {
   width: 707px;
   height: 707px;
   background-color: #fff;
-  border-radius: 50%;
+  border-radius: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -194,12 +201,13 @@ body {
   font-size: 17px;
   letter-spacing: 2px;
   color: #000;
+  margin-bottom: 2%;
 }
 
 .promotion-block {
   width: 40%;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 2%;
 }
 
 .promotion-subtitle {
@@ -214,7 +222,7 @@ body {
   font-size: 14px;
   text-align: center;
   color: #000;
-  margin-top: 10px;
+  margin-top: 2%;
 }
 
 .promotion-separator {
@@ -222,7 +230,7 @@ body {
   height: 0;
   opacity: 0.4;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin-top: 25px;
+  margin-top: 3%;
 }
 
 .btn {
