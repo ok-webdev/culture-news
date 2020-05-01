@@ -13,6 +13,7 @@
     letter-spacing: 1px;
     color: $main-color;
     margin-top: 60px;
+    text-align: center;
   }
 
   &-nav {
@@ -27,11 +28,23 @@
   flex-wrap: wrap;
   list-style: none;
 
+  &-item {
+    margin: 0 20px;
+
+    &:nth-child(odd) {
+      margin: 0;
+    }
+  }
+
   &-link {
     text-decoration: none;
     font-weight: normal;
     font-size: 15px;
     letter-spacing: 2px;
     color: $main-color;
+    outline: none;
   }
 }
+
+
+

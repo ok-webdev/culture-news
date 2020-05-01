@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+  *{
+    &:hover{
+      color: initial;
+    }
+  }
+  .menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &-item{
+      margin: 10px;
+    }
+  }
+  .promo{
+    &-img{
+      margin-top: 20px;
+    }
+    &-title{
+      font-size: 36px;
+    }
+    &-text{
+      margin-bottom: 5%;
+    }
+  }
+  .reviews{
+    &-card{
+      text-align: center;
+    }
+  }
+  .promotion{
+    min-height: 556px;
+    margin-top: 20px;
+    &-wrapper{
+      min-width: 707px;
+      min-height: 707px;
+    }
+  }
+  .footer{
+    margin-top: 20px;
+  }
+}
