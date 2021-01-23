@@ -3,6 +3,6 @@
 ## Новости культуры
 
 
-https://ok-webdev.github.io/culture-news/
+[GH-Pages](https://ok-webdev.github.io/culture-news/)
 
 
